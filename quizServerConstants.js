@@ -42,9 +42,8 @@ exports.CORS_WHITELIST_LOCAL_TEST = [
   'http://localhost:9113'
 ]
 exports.CORS_WHITELIST_LOCAL_REMOTE = [
-  'https://quizclient021n.netlify.app',
   'http://localhost:8103',
   'http://localhost:9103',
   'http://localhost:9113'
 ]
-exports.CORS_WHITELIST_REMOTE = 'https://quizclient021n.netlify.app'
+exports.CORS_WHITELIST_REMOTE = 'https://quizclient021f.vercel.app/'
