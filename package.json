@@ -5,11 +5,11 @@
   "description": "Quiz Server",
   "main": "script.js",
   "scripts": {
-    "start": "node quizServerRemote.js",
-    "startlocal": "node quizServerLocal.js",
-    "startlocalTest": "node quizServerLocalTest.js",
-    "startlocalremote": "node quizServerLocalRemote.js",
-    "dev": "nodemon quizServerLocalTest.js"
+    "start": "node api/quizServerRemote.js",
+    "startlocal": "node api/quizServerLocal.js",
+    "startlocalTest": "node api/quizServerLocalTest.js",
+    "startlocalremote": "node api/quizServerLocalRemote.js",
+    "dev": "nodemon api/quizServerLocalTest.js"
   },
   "author": "Richard",
   "license": "ISC",
